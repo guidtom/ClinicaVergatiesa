@@ -1,0 +1,104 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.dialogo_titulo {
+    color: blue;
+    outline: 1px solid lightgreen;
+}
+
+.dialogo {
+    font-size: 1.5rem;
+
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 2rem;
+
+    /*border: 1px solid black;*/
+}
+
+.nota_marginal {
+    opacity: 0;
+
+    text-align: center;
+
+    border: 2px solid red;
+    border-radius: 50px;
+    color: rgb(228, 223, 161);
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 3px;
+}
+
+.glosario {
+    opacity: 0;
+
+    background-color: #FF5;
+
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+.glosario_titulo {
+    opacity: 0;
+    color: rgb(233, 223, 92);
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 3px;
+}
+.glosario_items { 
+    opacity: 0;
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+.texto {
+    height: 250px;
+    color: #000;
+    background-color: #DD8;
+
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+.texto_parrafo, .texto_titulo {
+    color: #000;
+    
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+footer {
+    background-color:  darkolivegreen; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 3rem;
+}
+
+keyword {
+    color: blue;
+    font-weight: bold;
+}
+
+code {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none
+}
+
